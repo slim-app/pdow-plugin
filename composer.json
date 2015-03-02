@@ -1,0 +1,20 @@
+{
+    "name": "slimapp/pdow",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kruemel",
+            "email": "kruemel@byte.gs"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "easylib/pdow": "1.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "SlimPlugin\\PDOW": ""
+        }
+    }
+}
