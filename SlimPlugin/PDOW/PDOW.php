@@ -4,7 +4,7 @@ class PDOW
 {
     public static function config($configJson)
     {
-        if($configJson["mysql"]["enabeld"]==true)
+        if($configJson["mysql"]["enabled"]==true)
         {
             $db = new \Easy\PDOW\PDOW();
             $db->setTyp("mysql");
